@@ -1,0 +1,13 @@
+How to hit the endpoint of flask
+ -  ngrok on local machine that is the url (ngrok http containerid:5000)
+     - fail : hypothesis
+         - ubuntu version ?
+         - IP is not precise enought ?
+         - port 5000 works only locally ?
+         - free account limited ?
+         - install gunicorn on docker will improve the flow ?
+         - instead of doing an api I could only do a webhook like at sonder.
+
+How to improve of flask so that it can handle the hit workload
+ - nginx
+ - https://ianlondon.github.io/blog/deploy-flask-docker-nginx/
